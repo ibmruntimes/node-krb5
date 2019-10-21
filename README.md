@@ -44,6 +44,8 @@ To compile this library in windows, you need a complete visual studio compile ch
 
 ### z/OS
 
+Require [IBM SDK for node.js v8.16.0 or later](https://www.ibm.com/ca-en/marketplace/sdk-nodejs-compiler-zos/purchase).
+
 Install [curl for z/OS](https://www.rocketsoftware.com/product-categories/mainframe/curl-for-zos) and [gzip for z/OS](https://www.rocketsoftware.com/product-categories/mainframe/gzip-zos), then follow the instruction [here](#install-node-krb5-on-zos).
 
 ### Manual compilation of MIT Kerberos
@@ -82,6 +84,8 @@ If kerberos is installed in a directory not included in include and/or library p
 ```
 
 ### Install node-krb5 on z/OS
+
+Require [IBM SDK for node.js v8.16.0 or later](https://www.ibm.com/ca-en/marketplace/sdk-nodejs-compiler-zos/purchase).
 
 1. run the following command to install krb5 libraries for z/OS (it requires [curl for z/OS](https://www.rocketsoftware.com/product-categories/mainframe/curl-for-zos) and [gzip for z/OS](https://www.rocketsoftware.com/product-categories/mainframe/gzip-zos))
 ```
